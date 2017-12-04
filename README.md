@@ -1,2 +1,2 @@
-# http://Levandovski.github.io/index.html
+# http://Levandovski.github.io
 My Web Site Voxus - Jessé Levandovski
