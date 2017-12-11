@@ -1,0 +1,25 @@
+create database tarefas;
+use tarefas;
+
+
+CREATE TABLE IF NOT EXISTS `tarefa` (
+  `cod_tarefa` int(11) NOT NULL AUTO_INCREMENT,
+  `nome` varchar(500) NOT NULL,
+  `descricao` varchar(500) NOT NULL,
+  `anexos` varchar(500) NOT NULL,
+  `prioridade` int(11) NOT NULL,
+  `usuario` varchar(500) NOT NULL,
+  `status` varchar(500) NOT NULL,
+  `usuario_alteracao` varchar(500) NOT NULL,
+  PRIMARY KEY (`cod_tarefa`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=26 ;
+
+
+CREATE TABLE IF NOT EXISTS `usuarios` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `nome` varchar(220) NOT NULL,
+  `email` varchar(220) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=25 ;
+
+
