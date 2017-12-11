@@ -1,0 +1,36 @@
+iframe {
+    border: 0;
+    overflow: hidden;
+    margin: 0;
+    height: 60px;
+    width: 450px;
+}
+
+#anexos {
+    list-style-image: url(image/file.png);
+}
+
+img.remover {
+    cursor: pointer;
+    vertical-align: bottom;
+}
+
+.botao_gmail{
+    background:#e53935;
+}
+.botao_gmail2{
+    margin:0 auto;
+    width: 100px;
+    background:#1e88e5 ;
+    text-align: center;
+   
+}
+.erro{
+    margin:0 auto;
+    margin-top: 10px;
+    width: 400px;
+    background:#f30337 ;
+    text-align: center;
+    color: #fff;   
+    font-size: 20px;
+}
