@@ -2,7 +2,7 @@
 My Web Site Voxus - Jessé Levandovski
 # Instruções para utilização do sistema.
 
-# Antes de iniciar o sistema é necessário executar o script do banco de dados no WampServer. O script se encontra dentro da pasta dao, com o nome banco_de_dados.txt. Basta importar o arquivo no wamp e executa-lo ou copiar e colocar no wamp.
+# Antes de iniciar o sistema é necessário executar o script do banco de dados no WampServer. O script se encontra dentro da pasta dao, com o nome banco_de_dados_tarefas.txt. Basta importar o arquivo no wamp e executa-lo ou copiar e colocar no wamp.
 # Dentro do projeto na pasta dao no arquivo conexao.php é necessário caso haja necessidade trocar o nome do usuário do wamp ($username="root") para o o usuário que está configurado a máquina local e da mesma forma com a senha ($password=""). 
 # O sistema inicia na tela de Login.
 # Faça Login utilizando uma conta do google.
